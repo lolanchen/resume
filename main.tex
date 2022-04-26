@@ -1,8 +1,7 @@
 \include{header.tex}
 \begin{document}
 
-%----------HEADING-----------------
-
+%----------Personal Info-----------------
 \textbf{\LARGE Chen Kaishang} \\
 \vspace{5pt}
 \begin{tabular}{l l}
@@ -13,95 +12,100 @@
     Date of birth: &\quad November 11, 1997, Shenzhen-China
 \end{tabular}
 
-%-----------SUMMARY-----------------
-\section{Summary}
+%-----------Profile-----------------
+\section{Profile}
 write summary about yourself here
     
 \vspace{-5pt}
-
-
 
 %-----------EDUCATION-----------------
 \section{Education}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Waseda University}{}
+      {Waseda University - Current}{Tokyo}
       {Master of Engineering in Computer Science and Engineering}{2021.09 - Expected 2023.09}
     \resumeSubheading
-      {Waseda University}{}
+      {Waseda University - Graduated}{Tokyo}
       {Bachelor of Engineering in Computer Science and Engineering}{2017.09 - 2021.09}
-\resumeSubHeadingListEnd
-\vspace{-5pt}
+    \resumeSubheading
+      {University of Hong Kong - Dropped out}{Hong Kong}
+      {Department of Engineering}{2017.03 - 2016.09}
 
-%-----------Skills-----------------
-\section{Skills}
-	\resumeSubHeadingListStart
-	\resumeSubItem{Programming Languages}{Python, R, C++, Go, bash, NodeJS/TypeScript, Java, C, Ocaml}
-	\resumeSubItem{Python Libraries}{Pytorch, Keras, Scikit-Learn, matplotlib/seaborn, Flask, Pandas}
-    \resumeSubItem{Tools}{Linux (Desktop\&Server), vim, git}
-    \resumeSubItem{Spoken Languages}{Fluent in English, Japanese and Madarin Chinese}
 \resumeSubHeadingListEnd
 \vspace{-5pt}
 
 %-----------Work Experience-----------------
 \section{Work Experience}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
     \resumeSubheading{Celsys, Inc.}{Tokyo}
     {Technical Intern}{2020.06 - 2021.11}
     \resumeItemListStart
         \resumeItem{Deep Learning}{Developed a semi-supervised deep learning model for detecting Japanese text in Comic images using Pytorch and Python}
         \resumeItem{Backend Web Server}{Wrapped the deep learning model into a web server using Docker and Django}
-        \resumeItem{Desktop Application}{Developed a desktop GUI application for MacOS with proprietary C++ library in XCode}
+        \resumeItem{Desktop Application}{Developed a desktop GUI application for MacOS with proprietary C\Plus\Plus library in XCode}
     \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------Papers-----------------
+\section{Conference Appearance}
+\resumeSubHeadingListStart
+\resumeSubheading{Multi-Agent Competition for Pokemon AI}{Accepted oral at Visual Computing 2021}
+{Chen Kaishang, Kotaro Kikuchi, Edgar Simo-Serra}{}
 \resumeSubHeadingListEnd
 \vspace{-5pt}
 
 %-----------Project-----------------
 \section{Projects}
-\resumeSubHeadingListStart
+
+\begin{itemize}[leftmargin=*]
+    \item{\textbf{Research - Reinforcement Learning with Evolution Strategies on Imperfect Information Games}}
+        \begin{itemize}
+                \vspace{-5pt}
+                \item Addresses poor learning stability and data efficiency in Reinforcement Learning.
+                \item Addresses poor learning stability and data efficiency in Reinforcement Learning.
+                \item Addresses poor learning stability and data efficiency in Reinforcement Learning.
+        \end{itemize}
+
+\end{itemize}
+
+\begin{itemize}[leftmargin=*]
 \resumeSubItem{Research - Reinforcement Learning with Evolution Strategies on Imperfect Information Games}
-{describe your research here}
+{
+    \\ Addresses poor learning stability and data efficiency in Reinforcement Learning.
+    \\ Implemented custom learning environment for the game Pokemon using the OpenAI Gym interface. 
+    \\ Improved learning stability by applying Evolution Strategies along with Reinforcement Learning.
+}
 \vspace{2pt}
 \resumeSubItem{Intern - Semi-supervised text detection in non-photorealistic images}
-{talk a little bit details}
+{
+    \\ Managed to train a CNN-based neural network on text detection task with predominantly synthetic data.
+    \\ Implemented a web server with Django to make the model accessible to http requests.
+    \\ Created a frontend GUI to interact with the web server using proprietary C\Plus\Plus libraries.
+}
 \vspace{2pt}
-\resumeSubItem{Hobby - Web service automation}
-{Google calender}
-\resumeSubHeadingListEnd
+\resumeSubItem{Machine Learning Class Projects}
+{
+    \\ Computer Vision/Graphics: Natural image generation with generative adversarial networks(GANs).
+    \\ Natural Language Processing: Semantics classification and Text Summarization on small corpuses.
+    \\ Reinforcement Learning on Various video games such as snake, pacman, tetris, etc.
+}
+\end{itemize}
 \vspace{-5pt}
 
-%-----------Publication-----------------
-\section{Publications}
-\resumeSubHeadingListStart
-\resumeSubItem{Book: Deep Learning on Web (Web Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Django, Python, AWS, GCP, Azure (November '18)}
-\vspace{2pt}
-\resumeSubItem{Book: Deep Learning on Mobile Devices (Flutter App Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Flutter, Android, Firebase, TensorFlow, Python, Dart (December '18)}
-\resumeSubHeadingListEnd
+%-----------Skills-----------------
+\section{Skills}
+\begin{itemize}[leftmargin=*]
+	\resumeSubItem{Machine Learning}{Pytorch, Tensorflow, Scikit-Learn, OpenAI Gym, etc}
+	\resumeSubItem{Data Analysis and Visualization}{Jupyter Notebook, Pandas, matplotlib/seaborn, Microsoft Excel, etc.}
+	\resumeSubItem{Web Backend}{node.js, Django}
+	\resumeSubItem{Automation}{Experience in creating automation scripts in Python and shell scripts.}
+    \resumeSubItem{Platforms}{Linux (Desktop\&Server), Google Cloud Platform}
+	\resumeSubItem{Programming Languages}{Python, R, C\Plus\Plus, Go, bash, NodeJS/TypeScript, Java, C, Ocaml}
+    \resumeSubItem{Communication skills}{Fluent in English, Japanese and Madarin. Experiences in academic writing in English.}
+\end{itemize}
 \vspace{-5pt}
-%-----------Awards-----------------
-\section{Honors and Awards}
-\begin{description}[font=$\bullet$]
-\item {Awarded title of Intel Software Innovator - May, 2019}
-\vspace{-5pt}
-\item {Second Runner's Up at TCS EngiNx Engineering Project Innovation Content - September, 2018 }
-\vspace{-5pt}
-\item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
 
-\end{description}
-
-\vspace{-5pt}
-\section{Volunteer Experience}
-  \resumeSubHeadingListStart
-	\resumeSubheading
-    {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
-    {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
-\vspace{5pt}
-    % \vspace{10pt}\textbf{\large{Community Experience}}
-    \resumeSubheading
-    {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
-    {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
-
-\resumeSubHeadingListEnd
 
 \end{document}
 
